@@ -33,6 +33,11 @@ This website provides a key generation service that integrates with Linkvertise 
 2. Complete the Linkvertise process to obtain a key.
 3. If successful, a unique key will be displayed on the page.
 
+## Anti-Bypassing API Key
+1. To get your API Key, head over to https://publisher.linkvertise.com/dashboard and login
+2. After you login, go to Settings and Enable Anti-Bypassing.
+3. Copy your API Key and paste it on `ANTI_BYPASSING_TOKEN`
+
 ## Notes
 - Keys are stored in `keys.json` with associated IP addresses and expiration times. You can change the name for more security, just make sure to edit the php too.
 - If an invalid or expired key is used, the IP will be banned and added to `banned-ip.json`. You can change the name for more security, just make sure to edit the php too.
