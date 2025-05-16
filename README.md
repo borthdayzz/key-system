@@ -43,5 +43,8 @@ This website provides a key generation service that integrates with Linkvertise 
 - If an invalid or expired key is used, the IP will be banned and added to `banned-ip.json`. You can change the name for more security, just make sure to edit the php too.
 - Banned IPs will see a message indicating they are permanently banned.
 
+## Support
+- For any issues contact borthdayzz on discord
+
 ## License
 This project is licensed under the MIT License.
